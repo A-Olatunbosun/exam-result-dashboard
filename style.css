@@ -269,11 +269,12 @@ h2 {
 }
 
 .student-information {
-  flex: 2;
+  flex: 1.5;
 }
 
 .student-subjects {
   flex: 1;
+  min-width: 300px;
 }
 
 /* Profile Section */
@@ -607,6 +608,10 @@ tr:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .top-nav {
+    padding: var(--spacing-lg) var(--spacing-xl);
+  }
+
   .content {
     padding: var(--spacing-xl);
   }
